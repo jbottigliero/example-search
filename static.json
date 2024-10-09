@@ -6,14 +6,35 @@
   },
   "data": {
     "version": "1.0.0",
+    "features": {
+      "transfer": true
+    },
     "attributes": {
       "metadata": {
         "title": "Search | Globus Search Portal"
       },
       "content": {
         "headline": "Globus Search Portal"
-      },      
+      },
+      "components": {
+        "Result": {
+          "heading": "entries[0].content.name",
+          "fields": [
+            {
+              "label": "Tags",
+              "property": "entries[0].content.tags"
+            },
+            {
+              "label": "Region",
+              "property": "entries[0].content.region"
+            }
+          ]
+        }
+      },
       "globus": {
+        "application": {
+          "client_id": "d33fbe98-749b-4b4c-b91b-b31e469de04e"
+        },
         "search": {
           "index": "78b92aca-e361-4307-8f66-bc448f20e2c3",
           "facets": [
