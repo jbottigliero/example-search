@@ -6,15 +6,15 @@
   },
   "data": {
     "version": "1.0.0",
-    "features": {
-      "transfer": true
-    },
     "attributes": {
       "metadata": {
         "title": "Search | Globus Search Portal"
       },
       "content": {
         "headline": "Globus Search Portal"
+      },
+      "features": {
+        "transfer": true
       },
       "components": {
         "Result": {
